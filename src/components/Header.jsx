@@ -13,7 +13,7 @@ export default function Header() {
       <div className='flex items-center gap-4'>
         <DarkModeSwitch/>
       <Link href={'/'} className='text-2xl font-bold flex items-center py-1 px-2 rounded-lg bg-amber-400'>
-        <span className=' text-black'>IN</span><span className='text-blue-950 hidden sm:inline'>seam</span>
+        <span className=' text-red-600'>IN</span><span className='text-blue-950 hidden sm:inline'>seam</span>
       </Link>
       </div>
     </div>
